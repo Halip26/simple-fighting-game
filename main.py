@@ -77,7 +77,9 @@ def menuGame():
     flscrn = tkinter.Label(
         menu, text="Fullscreen", font=("Courier", 14), bg="Green", fg="white"
     )
+
     fsy = tkinter.Button(menu, text="", command=togglefullscreen)
+
     if fs == 0:
         menu.attributes("-fullscreen", False)
         fsy.configure(text="Disabled")
