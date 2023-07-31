@@ -63,17 +63,22 @@ def menuGame():
         bg="Green",
         fg="white",
     )
+
     boxert = tkinter.Button(menu, text="Boxer", command=boxer, pady=20, width=100)
     kickboxert = tkinter.Button(
         menu, text="Muay Thai", command=kickboxer, pady=20, width=100
     )
+
     wrestlert = tkinter.Button(
         menu, text="Street Fighter", command=wrestler, pady=20, width=100
     )
+
     mexit = tkinter.Button(menu, text="Exit", command=exit)
+
     settings = tkinter.Label(
         menu, text="Settings", font=("Courier", 20, "bold"), bg="Green", fg="white"
     )
+
     flscrn = tkinter.Label(
         menu, text="Fullscreen", font=("Courier", 14), bg="Green", fg="white"
     )
