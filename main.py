@@ -122,6 +122,7 @@ def gameplay():
     global tdmg
     tdmg = 0
     tdmgp = 0
+
     if cclass == "Boxer":
         pmodifier = 1.5
         kmodifier = 0.5
